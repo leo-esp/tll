@@ -1,0 +1,82 @@
+body > img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.55;
+    /* z-index: -1; */
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url(dejavu-fonts-ttf-2.37/ttf/DejaVuSans.ttf);
+}
+
+html{
+    /* font-family: 'DejaVu Sans'; */
+    /* font-family: "Arial", sans-serif; */
+}
+
+main{
+    display: flex;
+    flex-flow: column;
+}
+
+.yellow{
+    color: red;
+}
+
+p.yellow:first-child   {
+    font-size: 35px;
+}
+
+p.yellow:nth-child(2){
+    font-size: 45px;
+    margin-top: -20px;
+}
+
+ .titulo{
+    padding-top: 2%;
+    padding-left: 8%;
+} 
+
+.sub-titulo{
+    padding-top: 24px;
+}
+
+.logo{
+    flex: 1;
+}
+
+section:first-child{
+    background: repeating-linear-gradient(
+        45deg,
+        #007cc7,
+        #007cc7 1%,
+        #007ec8 1%,
+        #007ec8 2%
+    );
+}
+
+section:nth-child(2n){
+    background-color: white;
+    color: #3289c0;
+}
+
+section{
+    background-color: #3289c0;
+    color: white;
+}
+
+.column1{
+    flex: 1;
+}
+.column2{
+    flex: 2;
+}
+.column3{
+    flex: 3;
+}
+.column4{
+    flex: 4;
+}

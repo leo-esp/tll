@@ -1,0 +1,39 @@
+img {
+    opacity: 0.35;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url(dejavu-fonts-ttf-2.37/ttf/DejaVuSans.ttf);
+}
+
+html{
+    /* font-family: 'DejaVu Sans'; */
+    font-family: sans-serif;
+}
+
+main{
+    padding-left: 24.5%;
+    margin: 0 auto;
+}
+
+.yellow{
+    color: #ffeb4a;
+}
+
+.titulo{
+    margin-top: 25px;
+    padding: 5px;
+}
+
+.titulo p:first-child{
+    font-size: 33px;
+    margin-bottom: 0; 
+}
+.titulo p:first-child ~ p{
+    font-size: 48px;
+}
