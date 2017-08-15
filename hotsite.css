@@ -13,39 +13,12 @@ body > img {
 }
 
 html{
-    /* font-family: 'DejaVu Sans'; */
-    /* font-family: "Arial", sans-serif; */
+    font-family: "Helvetica";
 }
 
 main{
     display: flex;
     flex-flow: column;
-}
-
-.yellow{
-    color: red;
-}
-
-p.yellow:first-child   {
-    font-size: 35px;
-}
-
-p.yellow:nth-child(2){
-    font-size: 45px;
-    margin-top: -20px;
-}
-
- .titulo{
-    padding-top: 2%;
-    padding-left: 8%;
-} 
-
-.sub-titulo{
-    padding-top: 24px;
-}
-
-.logo{
-    flex: 1;
 }
 
 section:first-child{
@@ -56,6 +29,7 @@ section:first-child{
         #007ec8 1%,
         #007ec8 2%
     );
+    height: 46vh;
 }
 
 section:nth-child(2n){
@@ -68,15 +42,82 @@ section{
     color: white;
 }
 
-.column1{
-    flex: 1;
+.yellow{
+    color: red;
 }
-.column2{
-    flex: 2;
+
+p.yellow:first-child{
+    font-size: 33px;
+    line-height: 50px;
 }
-.column3{
-    flex: 3;
+
+p.yellow:nth-child(2){
+    font-size: 48px;
+    margin-top: -25px;
 }
-.column4{
-    flex: 4;
+
+p.white{
+    margin-top: -24px;
+    font-size: 21px;
+}
+
+p.white:nth-child(2){
+    margin-top: -17px;
+    padding-left: 0;
+    line-height: 25px;
+}
+
+.titulo{
+    padding-top: 2%;
+    padding-left: 8%;
+} 
+
+.titulo-img{
+    margin-left: -21%;
+    width: 72vh;
+}
+
+.sub-titulo{
+    padding-top: 24px;
+}
+
+.titulo button{
+    font-size: 18px;
+    margin-top: 18px;
+    padding-left: 3px;
+}
+
+#lista-vantagens{
+    height: 56.5vh;
+}
+
+#lista-vantagens p{
+    color: grey;
+    text-align: center;
+    font-size: 15px;
+}
+
+#lista-vantagens p:first-child{
+    text-align: center;
+    font-size: 26.5px;
+    font-weight: bold;
+    margin-left: -6%;
+    padding-top: 31px;
+}
+
+#lista-vantagens .container div:nth-child(2) img{
+    padding-left: 29%;
+    padding-top: 12%;
+}
+
+#lista-vantagens .container div:nth-child(3) img{
+    padding-left: 4%;
+    width: 40vh;
+    padding-top: 12%;
+}
+
+#lista-vantagens .container div:nth-child(4) img{
+    margin-left: -18%;
+    padding-top: 12%;
+    width: 39vh;
 }
